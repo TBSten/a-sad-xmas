@@ -1,0 +1,10 @@
+.item {
+  width: 100%;
+}
+.item h4 {
+  text-align: end;
+}
+.item p {
+  margin: 0.75rem 0;
+}
+/*# sourceMappingURL=support.module.css.map */

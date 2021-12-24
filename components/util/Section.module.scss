@@ -1,0 +1,30 @@
+
+
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.5rem;
+    &:first-child{
+        padding-top: 0;
+    }
+    &.full{
+        padding: 1rem 0;
+    }
+    .con{
+        width: 100%;
+        max-width: 1000px;
+        padding: 1rem;
+        background: rgb(253, 253, 253);
+        border-radius: 0.75rem;
+        &.full{
+            width: 100%;
+            max-width: 100%;
+            border-radius: 0;
+        }
+        h3{
+            font-size: 2rem;
+        }
+    }
+}
+

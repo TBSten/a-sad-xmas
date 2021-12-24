@@ -1,0 +1,34 @@
+.sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 1.5rem;
+}
+.sec:first-child {
+  padding-top: 0;
+}
+.sec.full {
+  padding: 1rem 0;
+}
+.sec .con {
+  width: 100%;
+  max-width: 1000px;
+  padding: 1rem;
+  background: #fdfdfd;
+  border-radius: 0.75rem;
+}
+.sec .con.full {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 0;
+}
+.sec .con h3 {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=Section.module.css.map */

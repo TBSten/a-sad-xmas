@@ -1,0 +1,2 @@
+.button{background:#66f;color:#fafafa;padding:.5em .75em;border-radius:1em;-webkit-transition:.3s;transition:.3s}.button.sm{font-size:1rem}.button.md{font-size:1.25rem}.button.lg{font-size:2rem}.button:hover{-webkit-transition:.3s;transition:.3s;-webkit-transform:scale(1.1);transform:scale(1.1)}.button:active{opacity:.8}.line{padding:10px;width:100%}.line .button{width:100%}
+/*# sourceMappingURL=Button.module.min.css.map */

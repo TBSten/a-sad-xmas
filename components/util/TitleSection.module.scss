@@ -1,0 +1,21 @@
+.ts{
+    width: 100%;
+    min-height: 70vh;
+    background: rgb(81, 191, 255);
+    color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    h1{
+        font-size: 3.5rem;
+        color: rgb(247, 247, 247);
+    }
+    h2{
+        font-size: 2.75rem;
+        color: rgb(235, 235, 235);
+    }
+}
+

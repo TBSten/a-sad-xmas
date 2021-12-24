@@ -1,0 +1,40 @@
+@mixin button{
+    background: rgb(141, 234, 247);
+    color: white;
+    padding:0.5em 1.5em;
+    border-radius: 0.5em;
+    transition: 0.3s;
+    &:active{
+        transition: 0.3s;
+        transform: scale(1.2);
+    }
+    &:disabled{
+        transition: 0s;
+        background: rgb(204, 204, 204);
+    }
+
+}
+
+.form{
+    div{
+        border-bottom: solid 2px blue;
+    }
+    input{
+        display: block;
+        
+    }
+    textarea,
+    input[type="text"]{
+        width: 100%;
+        padding: 0.5em;
+    }
+    input[type="submit"]{
+        @include button ;
+    }
+}
+.comment{
+    button{
+        display: block;
+        @include button ;
+    }
+}

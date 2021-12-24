@@ -1,0 +1,21 @@
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .btn{
+        margin-bottom: 1.5rem;
+    }
+}
+
+.link{
+    color: rgb(107, 107, 255);
+    font-weight: bold;
+    font-size: 1.1em;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+
